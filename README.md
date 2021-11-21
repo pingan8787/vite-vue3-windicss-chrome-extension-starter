@@ -1,6 +1,6 @@
 # vite-vue3-windicss-chrome-extension-starter
 
-基于 Vite + Vue3 + Windicss 开发谷歌插件的 Starter 项目。
+基于 [Vite](https://cn.vitejs.dev/) + [Vue3](https://v3.cn.vuejs.org/) + [Windicss](https://cn.windicss.org/) 开发谷歌插件的 Starter 项目。
 
 ## 安装
 ```bash

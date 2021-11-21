@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "vite-vue3-windicss-chrome-extension-starter",
-	"version": "0.1.6",
+	"version": "0.0.1",
 	"description": "vite-vue3-windicss-chrome-extension-starter",
 	"icons": {
 		"16": "./assets/wx-16.png",

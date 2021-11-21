@@ -1,6 +1,7 @@
 {
   "name": "vite-vue3-windicss-chrome-extension-starter",
   "version": "0.0.0",
+  "keyword": "Chrome, Chrome extension, Vite, Vue, Vue3, Windi CSS",
   "watch": {
     "build": {
       "patterns": [
