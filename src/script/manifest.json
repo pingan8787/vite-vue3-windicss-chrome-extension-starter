@@ -1,0 +1,36 @@
+{
+	"manifest_version": 3,
+	"name": "vite-vue3-windicss-chrome-extension-starter",
+	"version": "0.1.6",
+	"description": "vite-vue3-windicss-chrome-extension-starter",
+	"icons": {
+		"16": "./assets/wx-16.png",
+		"48": "./assets/wx-48.png",
+		"128": "./assets/wx-128.png"
+	},
+	"homepage_url": "https://juejin.cn/user/1011206425950605",
+	"permissions": [
+		"contextMenus",
+		"clipboardWrite",
+		"storage",
+		"activeTab",
+		"scripting",
+		"tabs"
+	],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+        "default_title": "vite-vue3-windicss-chrome-extension-starter",
+		"default_popup": "pages/popup.html",
+		"default_icon": {
+			"16": "./assets/wx-16.png",
+			"48": "./assets/wx-48.png",
+			"128": "./assets/wx-128.png"
+		}
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"js": ["content-script.js"]
+	}]
+}
