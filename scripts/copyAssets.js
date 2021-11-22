@@ -6,17 +6,11 @@ const copyList = [
     { src: 'src/assets/image', dest: 'dist/assets' },
 ]
 
-// const sourceDir = process.argv[2]
-// const targetDir = process.argv[3]
-
-
 const isExist = (path) => { // 判断文件夹是否存在, 不存在创建一个
   if (!fs.existsSync(path)) {
     fs.mkdirSync(path)
   }
 }
-
-// isExist(targetDir)
 
 const copyFile = (sourcePath, targetPath) => {
   const sourceFile = fs.readdirSync(sourcePath, { withFileTypes: true })

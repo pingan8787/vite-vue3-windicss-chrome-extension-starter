@@ -22,7 +22,7 @@
 	},
 	"action": {
         "default_title": "vite-vue3-windicss-chrome-extension-starter",
-		"default_popup": "pages/popup.html",
+		"default_popup": "src/views/popup/main.html",
 		"default_icon": {
 			"16": "./assets/wx-16.png",
 			"48": "./assets/wx-48.png",
