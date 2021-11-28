@@ -24,9 +24,14 @@ pnpm watch
 进入谷歌浏览器 `chrome://extensions/` 页面，选择“加载已解压的扩展程序”，选择该项目下 `dist` 目录。
 
 ## 新页面开发
-在项目根目录 `pages/` 下增加目标页入口文件（如：`new.html`），并在 `src/pages/` 目录下增加相同名称的目录进行开发。
-该目录内容包含：`main.ts` 入口文件和 `{name}.vue` 模版文件。
-打包工具会自动读取 "./src/views/**/main.ts" 下所有文件。
+可以在该项目 `src/views` 下统一管理页面，新增页面时，只需要在该目录下创建新文件即可。目录结构：
+```
+|- news
+|-- main.html
+|-- main.ts
+|-- main.vue
+```
+打包工具会自动读取 "./src/views/**/main.ts" 下所有文件，并将该层目录的 main.html 作为输出的入口 HTML 文件。
 
 ## 资源分享
 - [Awesome Vite.js](https://github.com/vitejs/awesome-vite)
