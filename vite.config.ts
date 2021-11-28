@@ -6,7 +6,6 @@ import fs from "fs";
 import viteCompression from "vite-plugin-compression";
 import viteImagemin from "vite-plugin-imagemin";
 import legacy from "@vitejs/plugin-legacy";
-import { chromeExtension } from "vite-plugin-chrome-extension";
 import WindiCSS from 'vite-plugin-windicss';
 
 const isProd = process.env.VITE_PROJECT_ENV === "prod";

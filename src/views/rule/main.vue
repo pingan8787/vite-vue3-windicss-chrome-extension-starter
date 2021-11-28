@@ -11,8 +11,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.test2 {
-    color: blue;
-}
 
 </style>
